@@ -1,0 +1,75 @@
+/* ⚔️ سيف_خالص.ع */
+#ifndef سيف_خالص
+#define سيف_خالص
+
+#define عدم void
+#define عدد int
+#define محرف char
+#define كسري float
+#define مزدوج double
+#define طويل long
+#define قصير short
+
+#define فارغ ((void*)0)
+#define نجاح 0
+#define فشل 1
+#define صحيح 1
+#define خطأ 0
+
+#define بينما while
+#define ليس !
+#define و &&
+#define أو ||
+
+typedef struct _IO_FILE FILE;
+
+extern int printf(const char*, ...);
+extern int scanf(const char*, ...);
+extern int puts(const char*);
+extern FILE *fopen(const char*, const char*);
+extern int fclose(FILE*);
+extern int fprintf(FILE*, const char*, ...);
+extern int fputs(const char*, FILE*);
+extern char *fgets(char*, int, FILE*);
+extern int feof(FILE*);
+extern unsigned long strlen(const char*);
+extern char *strcpy(char*, const char*);
+extern int strcmp(const char*, const char*);
+extern void *malloc(unsigned long);
+extern void free(void*);
+extern int read(int, void*, int);
+extern void exit(int);
+extern int system(const char*);
+
+extern FILE *stdin;
+extern FILE *stdout;
+
+#define اكتب printf
+#define اكتب_سطر puts
+#define اقرأ scanf
+#define افتح_ملف fopen
+#define اغلق_ملف fclose
+#define اكتب_في_ملف fprintf
+#define اكتب_سطر_ملف fputs
+#define اقرا_سطر fgets
+#define اقرأ_سطر_عربي(س, ح) fgets(س, ح, stdin)
+#define نهاية_ملف feof
+#define طول_نص strlen
+#define انسخ_نص strcpy
+#define قارن_نص strcmp
+#define احجز_ذاكرة malloc
+#define حرر_ذاكرة free
+#define خروج exit
+#define نظام system
+#define رئيسي main
+#define ارجع return
+#define استمر continue
+#define توقف break
+
+#define وضع_قراءة "r"
+#define وضع_كتابة "w"
+#define وضع_اضافة "a"
+
+#endif
+#define NULL ((void*)0)
+#define قراءة read
